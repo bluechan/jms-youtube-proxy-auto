@@ -1,4 +1,5 @@
 <?php
+// $realstr是cookie，有效期一个月，失效了自己登录卷毛鼠管理系统F12查看请求头并复制粘贴cookie值进行替换
 $realstr = 'mysession=MTY3NDgzMjUxMnxEdi1CQkFFQ180SUFBUkFCRUFBQVNQLUNBQUlHYzNSeWFXNW5EQXNBQ1dOeWMyWlViMnRsYmdaemRISnBibWNNREFBS1FtRkdabVIxV1VGNWFBWnpkSEpwYm1jTUNRQUhiRzluYVc1bFpBUmliMjlzQWdJQUFRPT18osZBG0iNa_d2-ydywSXujkcGXV9wxvxKhz6oVpPWUpY=';
 $newheader = array(
     "cookie: $realstr",
