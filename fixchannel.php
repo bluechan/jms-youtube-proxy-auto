@@ -47,8 +47,9 @@ $channelarr = [
     'Aoi-Hinamori-ch',
     'lofi-girl-1',
     'lofi-girl-2',
+//  '新增频道名称',
 ];
-//以下为节目表信息，具体直播间链接为url=xxxxx截止“&proxy之前”为止
+//以下为节目表信息，具体直播间链接为url=xxxxx截止“&proxy之前”为止，同理，如果你需要新增或者修改节目信息，请严格保持上面的节目名称和下面一致，格式已经附加在后面了！
 $channelinfo = [
     '东森LIVE' => "name=东森LIVE&url=https://www.youtube.com/watch?v=R2iMq5LKXco&proxy=on",
     '三立LIVE新闻' => "name=三立LIVE新闻&url=https://www.youtube.com/watch?v=EB4g7wecgTI&proxy=on",
@@ -78,6 +79,7 @@ $channelinfo = [
     'Aoi-Hinamori-ch' => "name=Aoi-Hinamori-ch&url=https://www.youtube.com/watch?v=udhpeon5dMw&proxy=on",
     'lofi-girl-1' => "name=lofi-girl-1&url=https://www.youtube.com/watch?v=jfKfPfyJRdk&proxy=on",
     'lofi-girl-2' => "name=lofi-girl-2&url=https://www.youtube.com/watch?v=rUxyKA_-grg&proxy=on",
+//  '新增频道名称' => "name=新增频道名称&url=新增频道直播间链接&proxy=on",
 ];
 
 foreach ($channelarr as $value) {
